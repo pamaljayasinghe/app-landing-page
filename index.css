@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Custom styles for components */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-transition {
+  transition: transform 0.5s ease-in-out;
+}
+
+.contact-input {
+  @apply w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500;
+}
+
+.screenshot-slider {
+  width: 500px;
+  height: 1000px;
+}
+
+.screenshot-slider img {
+  width: 500px;
+  height: 1000px;
+  object-fit: cover;
+}
+
+/* Custom button hover effect */
+.download-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.download-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.download-button:hover::after {
+  transform: translateX(0);
+}
