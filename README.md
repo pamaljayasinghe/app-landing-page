@@ -10,7 +10,7 @@ A responsive landing page built with Next.js 14, TypeScript, and Tailwind CSS. F
 - 🖼️ Interactive app screenshot slider
 - 🎯 Feature showcase section
 - 📝 Contact form
-- ⚡ Built with Next.js 14 and TypeScript
+- ⚡ Built with Next.js 14 and TypeScript.
 
 ## Quick Start
 
