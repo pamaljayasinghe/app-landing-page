@@ -55,6 +55,6 @@ src/
     └── globals.css
 ```
 
-## License
+## License.
 
 MIT License - feel free to use this project for your own purposes.
