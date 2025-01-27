@@ -1,6 +1,6 @@
 # Modern App Landing Page
 
-A responsive landing page built with Next.js 14, TypeScript, and Tailwind CSS. Features a modern UI with animated hero section, feature showcase, app screenshots slider, and contact form.
+A responsive landing page built with Next.js , TypeScript, and Tailwind CSS. Features a modern UI with animated hero section, feature showcase, app screenshots slider, and contact form.
 
 ## Features
 
